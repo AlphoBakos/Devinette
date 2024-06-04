@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/fav.png" />
+    <title>Connexion</title>
+    <link rel="stylesheet" href="./Connexion/Style.css" />
+    <link rel="stylesheet" href="./page/CSS/bootstrap.min.css" />
+    <script src="/Connexion/connexion.js" defer></script>
+  </head>
+
+  <body>
+    <section>
+      <div class="connexion">
+        <form action="#" id="form-connexion">
+          <h2 class="titre">Connexion</h2>
+          <div
+            class="alert alert-warning text-bg-warning d-none"
+            id="avert"
+          ></div>
+
+          <div class="entree">
+            <input type="text" id="username" name="username" required />
+            <label for="username">Username</label>
+          </div>
+
+          <div class="entree">
+            <input type="password" name="password" id="password" required />
+            <label for="password">Mot de passe</label>
+          </div>
+
+          <button type="submit">Connexion</button>
+
+          <div class="inscription">
+            <p>
+              Je n'ai pas de compte !
+              <a href="./Connexion/inscription.html">S'inscrire</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

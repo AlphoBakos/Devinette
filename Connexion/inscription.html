@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../images/fav.png" />
+    <title>inscription</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="../page/CSS/bootstrap.min.css" />
+    <script src="inscription.js" defer></script>
+  </head>
+
+  <body>
+    <section>
+      <div class="enregistrement">
+        <form action="#" id="form-inscription">
+          <h2 class="titre">Inscrption</h2>
+
+          <div class="entree">
+            <input id="username" type="text" name="username" required />
+            <label for="username">Username</label>
+          </div>
+
+          <div class="entree">
+            <input id="photo" type="file" name="photo" required />
+          </div>
+
+          <div class="entree">
+            <input id="motDePasse" type="password" name="password" required />
+            <label for="motDePasse">Mot de passe</label>
+          </div>
+
+          <button type="submit" id="submit">Enregistrer</button>
+
+          <div class="inscription">
+            <p>
+              J'ai un compte compte !
+              <a href="../index.html">Se connecter</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

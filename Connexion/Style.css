@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.body1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    background-image: url('../images/photo_2024-05-29_17-51-03.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.connexion {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enregistrement {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titre {
+    font-size: 2em;
+    color: rgb(255, 0, 242);
+    text-align: center;
+}
+
+.entree {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid rgb(255, 0, 242);
+}
+
+.entree label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.entree input:focus~label,
+.entree input:valid~label {
+    top: -5px;
+}
+
+.entree input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: rgb(255, 0, 242);
+    padding: 0 35px 0 5px;
+}
+
+
+button {
+    width: 100%;
+    height: 40px;
+    background: rgb(255, 0, 242);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #000;
+    font-weight: 500;
+}
+
+.inscription {
+    font-size: .9em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.inscription p a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.inscription p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 412px) {
+    .connexion {
+        width: 70%;
+    }
+
+    .enregistrement {
+        width: 70%;
+    }
+
+    .entree {
+        width: 250px;
+    }
+}
