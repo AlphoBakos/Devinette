@@ -124,11 +124,11 @@ button {
 
 @media (max-width: 412px) {
     .connexion {
-        width: 70%;
+        width: 120%;
     }
 
     .enregistrement {
-        width: 70%;
+        width: 110%;
     }
 
     .entree {
