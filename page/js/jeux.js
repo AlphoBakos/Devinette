@@ -36,7 +36,7 @@ function refreshClassement() {
     localStorage.setItem("users", JSON.stringify(sortedPlayers))
 }
 
-fetch("/liste2.txt")
+fetch("/mots.txt")
     .then(response => response.text())
     .then(data => {
 
